@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Where the madness take us">
+	<div class='relative'>
+		<div class="relative z-10 container m-auto flex flex-row items-center min-h-svh text-white">
+			<div class="max-w-[36rem]">
+				<h2 class="text-7xl font-bold">Donde la locura nos lleve</h2>
+				<p class="text-lg">This is the home page of our blog. Here you will find all the posts we have written.</p>
+			</div>
+		</div>
+		<div class="absolute z-0 inset-0">
+			<div class="banner object-fill object-center absolute z-[1] w-full h-full bg-no-repeat bg-left" />
+		</div>
+	</div>
+</Layout>
+
+<style>
+	.banner {
+		background-image: url('/banner.jpg');
+	}
+</style>

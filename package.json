@@ -1,0 +1,50 @@
+{
+  "name": "satellite-spectrum",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "yarn@4.5.0",
+  "description": "Donde la locura nos lleve",
+  "author": {
+    "name": "José Manuel Rosa Moncayo",
+    "email": "josemanuel.rosamoncayo@gmail.com"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "homepage": "https://dondelalocuranoslleve.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wheremadnesstakesus/blog"
+  },
+  "bugs": {
+    "url": "https://github.com/wheremadnesstakesus/blog"
+  },
+  "keywords": [
+    "where the madnes take us"
+  ],
+  "main": "src/pages/index.astro",
+  "engines": {
+    "node": ">= 20.18.x",
+    "npm": ">= 10.8.x",
+    "yarn": ">= 4.5.x"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "latest",
+    "@fontsource/inter": "latest",
+    "astro": "latest",
+    "tailwindcss": "latest"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.8.0",
+    "@astrojs/check": "latest",
+    "eslint": "^9.14.0",
+    "typescript": "latest"
+  }
+}
